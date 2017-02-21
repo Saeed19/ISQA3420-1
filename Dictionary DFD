@@ -1,19 +1,19 @@
-<b>
-#Entities
-Developer - The Corporate Person responsible for all the coding and the main software packages and preparing for the license scan.
+
+<h1>Entities</h1>
+<p><b>Developer</br> The Corporate Person responsible for all the coding and the main software packages and preparing for the license scan.</p>
 Manager - Advising Authority to the software packages.
 Data stores 
 NIST Vulnerability DB - Database that contains all known vulnerabilities in the software package.
 Policy DB - Database that stores Policy documents for the relevant, associated software packages
 Software Package Vulnerability & License Information DB - Database that stores software package, license and vulnerability information.
-#Processes
+Processes<br>
 1.	Manage Software Package - Process that pulls up the policy request data for corresponding software projects based on Developer’s and Manager's request.
 2.	Retrieve Policy – Pull all data polices requested by manager or developer from policy database.
 3.	Edit Policy - Process where Manager submits or modifies policy documents.
 4.	Scanner License - Process that scans for any licenses that can be found in the program.
 5.	Request Lic&Vul Information: Consolidate and integrate the software project License Vulnerability Information came from the manger and developer.
 6.	Create policy: Process the data flow which would come came from the manager and send to policy data store to create/ Update and Upload the policy.
-#Data Flows
+Data Flows
 Software Package - Multiple code files that make up a software.
 Software Package License Result - Open Source Software Licenses. These include Open source, MIT, Apache licenses, etc.
 License & Vulnerability Result - Sends vulnerability data if any to be paired with the license data to store vulnerable data associated with the licenses.
@@ -28,4 +28,3 @@ Software Policies request - Software policies that correspond with their respect
 Software Project Policy Request - Request associated policy information for respective software projects.
 Policy Update - Most up to date policy document approved by Manager.
 
-</b>
