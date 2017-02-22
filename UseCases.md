@@ -1,4 +1,4 @@
-<h1>USE CASE 1</h1>
+<h1>USE CASE 1<h1>
 <p><b>Title:</b> Determine License and Vulnerability data by pulling up software policy to compare with software license.</p>
 <p><b>Primary Actor:</b> Manager</p> 
 <p><b>Goal in Context:</b> The Manager is able to determine license and vulnerability information from provided package information.</p>
