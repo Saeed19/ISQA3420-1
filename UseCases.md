@@ -1,5 +1,5 @@
 <h1>USE CASE 1</h1>
-<p><b>Title:</b> Determine License and Vulnerability data by pulling up software policy to compare with software license.</p>
+<p><b>Title:</b> License and Vulnerability data information.</p>
 <p><b>Primary Actor:</b> Manager</p> 
 <p><b>Goal in Context:</b> The Manager is able to determine license and vulnerability information from provided package information.</p>
 <p><b>Stakeholders:</b> a> Manger  b>Developer</p>
@@ -33,4 +33,4 @@ Software package policies are stored in the policy database. Relevant file/packa
 <p><b>Relevant file data</b> is in the Software Package Vulnerability and License Information database, Policy Database, and NIST Vulnerability Database is up-to-date.</p>
 <p><b>Main Success Scenario:</b> Manager receives associated policy for corresponding software based on corresponding request.</p>
 <p><b>Failed End Conditions:</b> Manager receives incorrect or corrupt software package policy.</p>
-<p><b>Trigger:</b> Corporate Manager request and receives accurate policy data.</p>
+<p><b>Trigger:</b> Corporate Manager request and update policy data for corresponding software package.</p>
