@@ -24,13 +24,13 @@ Software package policies are stored in the policy database. Relevant file/packa
 <p><b>Trigger:</b> Corporate manager sends request to Software Package Vulnerability and License Information Database
 <h1>USE CASE 3</h1>
 <p><b>Title:</b> To find Policies for Corresponding Software Packages</p>
-<p><b>Primary Actor: Manager
+<p><b>Primary Actor:</b> Manager</p>
 <p><b>Goal in Context:</b> The Manager is able to determine Open Source Software Package Policies from provided package data and The Corporate Manager can receive and update current policy documents</p>
 <p><b>Stakeholders:</b> Manager</p>
 <p><b>Manager:</b> To retrieve and update software package policy data.</p> 
 <p><b>Developer:</b> To request and retrieve associated software policies.</p>
 <p><b>Preconditions</b>
-Relevant file data is in the Software Package Vulnerability and License Information database, Policy Database, and NIST Vulnerability Database is up-to-date.</p>
+<p><b>Relevant file data</b> is in the Software Package Vulnerability and License Information database, Policy Database, and NIST Vulnerability Database is up-to-date.</p>
 <p><b>Main Success Scenario:</b> Manager receives associated policy for corresponding software based on corresponding request.</p>
 <p><b>Failed End Conditions:</b> Manager receives incorrect or corrupt software package policy.</p>
 <p><b>Trigger:</b> Corporate Manager request and receives accurate policy data.</p>
